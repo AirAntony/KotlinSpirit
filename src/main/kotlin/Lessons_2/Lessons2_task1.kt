@@ -1,15 +1,12 @@
 package Lessons_2
 
-fun main(){
+fun main() {
 
-    var ordersByECom: Int = 75
-    var afterPurchase: String = "Спасибо за покупку"
+    val ordersByECom: Int = 75
+    val afterPurchase: String = "Спасибо за покупку"
 
-    println(afterPurchase)
 
-    var rectangleHeight: Long = 55L
-    var rectangleLength: Double = 76.3
-println(rectangleLength)
-    println(rectangleHeight)
+    val rectangleHeight: Long = 55L
+    val rectangleLength: Double = 76.3
 
 }
