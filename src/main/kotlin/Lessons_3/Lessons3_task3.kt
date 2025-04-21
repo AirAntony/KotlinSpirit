@@ -2,11 +2,12 @@ package Lessons_3
 
 fun main() {
     val hourOfDeparture = 9
+    val minutesByHour = 60
     val minuteOfDeparture = 39
     val minuteTransitTime = 457
-    val hoursOfArrivalTime = minuteTransitTime / 60 + hourOfDeparture
-    val minuteOfArrivalTime = minuteTransitTime / 60 - hoursOfArrivalTime + minuteOfDeparture
+    val hoursOfArrivalTime = minuteTransitTime / minutesByHour + hourOfDeparture
+    val minuteOfArrivalTime = minuteTransitTime / minutesByHour - hoursOfArrivalTime + minuteOfDeparture
 
-    println("$hoursOfArrivalTime:$minuteOfArrivalTime")
+    print("$hoursOfArrivalTime:$minuteOfArrivalTime")
 
 }
