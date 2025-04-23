@@ -4,8 +4,9 @@ fun main() {
     val crystallineOre = 7
     val ironOre = 11
     val buff = 20
-    val bonusCrystallineOre = buff * crystallineOre / 100
-    val bonusIronOre = buff * ironOre / 100
+    val forPercent = 100
+    val bonusCrystallineOre = buff * crystallineOre / forPercent
+    val bonusIronOre = buff * ironOre / forPercent
 
     println(bonusCrystallineOre.toInt())
     println(bonusIronOre.toInt())
